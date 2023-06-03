@@ -79,6 +79,9 @@ return packer.startup(function(use)
     use("saadparwaiz1/cmp_luasnip") -- for autocompletion
     use("rafamadriz/friendly-snippets") -- useful snippets
 
+    -- github copilot
+    use("github/copilot.vim")
+
     if packer_bootstrap then
         require('packer').sync()
     end
