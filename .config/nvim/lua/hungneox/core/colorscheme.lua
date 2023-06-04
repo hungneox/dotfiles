@@ -1,6 +1,6 @@
-local status, _ = pcall(vim.cmd, "colorscheme dracula")
+local status, _ = pcall(vim.cmd, "colorscheme catppuccin-frappe")
 
 if not status then
-    print("colorscheme dracula not found, using default")
+    print("colorscheme catppuccin-frappe not found, using default")
     vim.cmd("colorscheme default")
 end
